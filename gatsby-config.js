@@ -5,6 +5,9 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-mdx",
+    "gatsby-plugin-theme-ui",
+    "gatsby-plugin-less",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
