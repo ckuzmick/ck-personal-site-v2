@@ -68,8 +68,7 @@ export default {
       },
       "h1": {
         "variant": "text.display",
-        "margin-top": "0px",
-        "color": "#a38df7"
+        "margin-top": "0px"
       },
       "h2": {
         "variant": "text.heading",
@@ -147,10 +146,9 @@ export default {
         "borderBottomWidth": "1px"
       },
       "hr": {
-        "border": "3px",
+        "border": 0,
         "borderBottom": "1px solid",
-        "borderColor": "#edfff9",
-        "borderRadius": 25
+        "borderColor": "muted"
       },
       "img": {
         "maxWidth": "100%"

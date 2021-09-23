@@ -1,18 +1,18 @@
 import SideNav from "../components/sidenav"
 import { Flex, Box } from 'theme-ui'
 import "../components/default.css"
-import Layout from "../components/layout"
 
-<Layout>
+<Flex>
+  <Box p={2} bg="background" sx={{ minWidth: '150px', display: "flex", alignItems: 'flex-end', flexDirection: 'column' }}>
+    <SideNav sx={{ alignItems: 'right' }}/>
+  </Box>
+  <Box p={2} bg="background" sx={{ flex: '1 1 auto' }}>
 
-<h1 sx={{ marginTop: "-16px" }}>👋 Greetings!</h1>
+<h1 sx={{ marginTop: "-16px" }}>👋 Hello</h1>
 
 ## Welcome
 
 Hello, I'm currently a seventh grader living in Cambridge, Massachusetts. This website will mainly function as an area for code I write, as well as bit of a blog in [writing](/writing/) as of when I'm writing this, I'm trying to publish every week in [writing](/writing/), so you can check that out. 
 
-## What you're probably looking for
-
-
-
-</Layout>
+  </Box>
+</Flex>
